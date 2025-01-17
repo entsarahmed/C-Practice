@@ -132,6 +132,35 @@ namespace Calculator
             #endregion
 
 
+            #region Shape Area Calculator - c# Beginner Project
+            string Answer;
+            float Result;
+            Console.WriteLine("What shape would you like to field the Area of? Please enter 'r' rectangle or any other key for circle.  " );
+
+            Answer = Console.ReadLine();
+
+            if ( Answer == "r")
+            {
+                Console.WriteLine("Please Enter the height of the rectangle.");
+                float height = float.Parse(Console.ReadLine());
+
+                Console.WriteLine("Please Enter the width of the rectangle");
+                float width = float.Parse(Console.ReadLine());
+
+                Result = height * width;
+            }
+            else
+            {
+                Console.WriteLine("Please Enter the Reduis of the Circle");
+                float Reduis = float.Parse(Console.ReadLine());
+                Result = (float)Math.PI * (Reduis * Reduis);
+            }
+            Console.WriteLine("The Result is " + Result);
+            Console.ReadKey();
+            
+
+            #endregion
+
         }
     }
 }
