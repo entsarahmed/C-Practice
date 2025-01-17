@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -87,6 +88,47 @@ namespace Calculator
             //else
             //    Console.WriteLine("It's a draw!");
             //Console.ReadKey();
+            #endregion
+
+            //object x = "123dff";
+            //int y = (int)x;
+            //Console.WriteLine(y);
+
+            #region Number Guessing Game
+            //bool IsCorrectGuess = false;    
+            //Random random = new Random();
+            //int RandomNum = random.Next(1, 11);
+
+
+
+            //Console.WriteLine("welcome to the number guessing game!");
+            //Console.WriteLine("A number Between 1 and 10 will be generated.");
+            //Console.WriteLine("If you Guess the correct number, you win!");
+
+            //Console.WriteLine(RandomNum);
+            //while(!IsCorrectGuess)
+            //{
+            //    Console.WriteLine("Please enter your guess.");
+            //    int Guess = Convert.ToInt32(Console.ReadLine());
+            //    if(Guess > RandomNum)
+            //    {
+            //        Console.WriteLine("Your guess is too high.");
+            //    }
+            //    else if (Guess < RandomNum)
+            //    {
+            //        Console.WriteLine("Your Guess is too low.");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Correct!");
+            //        IsCorrectGuess = true;
+            //    }
+            //    Console.WriteLine("Congratulation, you have won the game");
+            //}
+
+            //Console.ReadKey();
+
+
             #endregion
 
 
